@@ -127,6 +127,41 @@ h1 {
   padding-bottom:20px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .heading{
+    font-size: 52px;
+  }
+  .headingBlock{
+    min-width: 400px;
+  }
+  .lgirl,.rgirl {
+    max-width: 350px;
+    height: auto;
+  }
+  .homeContent{
+    width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .heading{
+    font-size: 32px;
+    padding:0px 20px
+  }
+  .headingBlock{
+    min-width: 300px;
+  }
+  .lgirl,.rgirl {
+    max-width: 350px;
+    height: auto;
+  }
+  .homeContent{
+    width: 750px;
+    margin: 0 auto;
+    height: 600px;
+  }
+}
 @media only screen and (max-width: 390px) {
   .lgirl,.rgirl {
     display: none;
