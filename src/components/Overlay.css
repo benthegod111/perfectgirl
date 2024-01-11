@@ -57,6 +57,9 @@
     .logo{
         width: 200px;
     }
+    .rocket{
+      display: none;
+  }
   }
 
 
