@@ -49,9 +49,9 @@ function App() {
                         NOT INDIAN, NOT A RUG
                       </h1>
                     </div>
-                    <button className="buyButton">
+                    <a href="https://raydium.io/"><button className="buyButton">
                       <h2>BUY $PEG</h2>
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               <img className="girl rgirl" alt="girl" src={rightGirl}/>
@@ -74,8 +74,8 @@ function App() {
                   MINT REVOKE: <span className="purple">YES</span>
                 </h3>
                 <div className="socials">
-                  <a href="www.google.com/"><img className="socialIcon" alt="telegram" src={telegram}/></a>
-                  <a href="www.google.com/"><img className="socialIcon" alt="x" src={twitter}/></a>
+                  <a href="https://t.me/pegirlforvacation"><img className="socialIcon" alt="telegram" src={telegram}/></a>
+                  <a href="https://twitter.com/PerfectGirl_Sol"><img className="socialIcon" alt="x" src={twitter}/></a>
                 </div>
               </div>
             </div>
