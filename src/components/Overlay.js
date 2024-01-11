@@ -54,7 +54,7 @@ export default function Overlay({ playAudio }) {
       >
         <div className="overlay-inside">
           <div className="logoBlock">
-            <img alt="logo" src={logo}/>
+            <img className="logo" alt="logo" src={logo}/>
           </div>
           <div className="imagesOverlay">
             <div>

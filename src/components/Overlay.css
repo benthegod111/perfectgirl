@@ -31,6 +31,9 @@
   }
 
   @media only screen and (max-width: 600px) {
+    .overlay{
+        max-width: 600px;
+    }
     .overlay-inside {
       width: 50%;
     }
@@ -41,6 +44,18 @@
     }
     .spinImg {
       max-width: 170px;
+    }
+    .rocket{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .overlay{
+        max-width: 390px;
+    }
+    .logo{
+        width: 200px;
     }
   }
 

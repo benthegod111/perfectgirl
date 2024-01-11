@@ -41,7 +41,7 @@ function App() {
           </div>
           <div className="home">
             <div className="homeContent">
-              <img className="girl" alt="girl" src={leftGirl}/>
+              <img className="girl lgirl" alt="girl" src={leftGirl}/>
                 <div className="headingButton">
                   <div className="headingSection">
                     <div className="headingBlock">
@@ -54,7 +54,7 @@ function App() {
                     </button>
                   </div>
                 </div>
-              <img className="girl" alt="girl" src={rightGirl}/>
+              <img className="girl rgirl" alt="girl" src={rightGirl}/>
             </div>
           </div>
           <div className="about">
