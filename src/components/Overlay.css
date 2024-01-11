@@ -30,7 +30,7 @@
       border-radius: 3%;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) and (max-device-width : 600px) {
     .overlay{
         max-width: 600px;
     }
@@ -50,7 +50,7 @@
     }
   }
 
-  @media only screen and (max-width: 390px) {
+  @media only screen and (max-width: 390px) and (max-device-width : 390px) {
     .overlay{
         max-width: 390px;
     }
